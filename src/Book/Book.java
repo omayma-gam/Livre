@@ -1,4 +1,4 @@
-  package livre;
+  package Book;
 
   public class Book {
     private String titre;
@@ -10,7 +10,7 @@
       public Book(String titre, String auteur, int isbn, boolean disponible) {
           this.titre = titre;
           this.auteur = auteur;
-          Isbn = isbn;
+          this.Isbn = isbn;
           this.disponible = disponible;
       }
 
@@ -56,3 +56,4 @@
                   '}';
       }
   }
+
